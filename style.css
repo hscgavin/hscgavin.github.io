@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: #fff;
+}
+
+canvas {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.content {
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    line-height: 100%;
+    top: 0;
+    position: absolute;
+    font-size: 50px;
+}
+h1 {
+    font-size: 25px;
+}
